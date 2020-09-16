@@ -3,6 +3,7 @@
  Demo: working with image assets using PImage.
  //////////////////////////////////////////////////
  
+ 
  Place image assets into "data" folder.
  Place data folder inside sketch's folder.
  
