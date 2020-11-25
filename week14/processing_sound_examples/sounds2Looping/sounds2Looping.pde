@@ -38,4 +38,5 @@ void draw() {
     sample1.loop();
     looping= "sample1";
   }
+  println("looping: " + looping);
 }
