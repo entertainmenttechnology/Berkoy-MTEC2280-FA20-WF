@@ -11,7 +11,7 @@ Timer timer2;
 void setup() {
   size(200, 200);
   background(0);
-  timer = new Timer(5000);
+  timer = new Timer(5000); //pass into constructor
   timer2= new Timer(10000);
   timer.start();
   timer2.start();
@@ -33,10 +33,13 @@ void draw() {
 class Timer {
   int savedTime;  // When Timer started
   int totalTime;  // How long Timer should last
+  
+  //constructor
   Timer(int tempTotalTime) {
     totalTime = tempTotalTime;
   }
-  // Starting the timer
+  
+  //methods
   void start() {
     savedTime = millis();
   }
